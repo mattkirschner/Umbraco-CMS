@@ -10,6 +10,7 @@ namespace Umbraco.Core.Configuration.Grid
         string View { get; }
         string Render { get; }
         string Icon { get; }
+        bool Deprecated { get; }
         IDictionary<string, object> Config { get; }
     }
 }
